@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Press Start 2P";
+  color: #eee;
+  background-color: #222;
+  /* max-width: 120rem; */
+  margin: 0 auto;
+}
+button {
+  font-family: inherit;
+}
+
+/* Layout */
+.header {
+  position: relative;
+  height: 30vh;
+  border-bottom: 5px solid #eee;
+}
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-again {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+
+  margin-top: 1.6rem;
+  margin-left: 1.6rem;
+  padding: 1.8rem 3.2rem;
+}
+.number {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 15rem;
+  padding: 3rem 0rem;
+  background-color: #eee;
+  color: #333;
+  font-size: 6rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  line-height: 15rem;
+  font-size: 3.6rem;
+}
+.between {
+  margin-top: 1.6rem;
+  margin-right: 1.6rem;
+  font-size: 1.6rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  gap: 30rem;
+}
+.section-left {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-right {
+  align-self: center;
+  width: 40rem;
+}
+.guessing-label {
+  font-size: 2.3rem;
+  margin-bottom: 8rem;
+}
+.label-score {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+.label-highscore {
+  font-size: 2.3rem;
+}
+.btn-check {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+}
+.input-number {
+  margin-bottom: 3rem;
+  border: 3px solid #eee;
+  background-color: #222;
+  font-size: 5rem;
+  color: #eee;
+  width: 24rem;
+  height: 11rem;
+  text-align: center;
+  font-family: inherit;
+}
